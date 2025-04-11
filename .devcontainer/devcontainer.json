@@ -1,0 +1,20 @@
+{
+    "name": "Raspberry Pi Dev",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.makefile-tools"
+        ],
+        "settings": {
+          "C_Cpp.intelliSenseEngine": "default",
+          "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+        }
+      }
+    },
+    "features": {},
+    "postCreateCommand": "echo 'Ready for Pi-style dev!'"
+  }
