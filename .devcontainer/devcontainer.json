@@ -9,7 +9,8 @@
           "ms-vscode.cpptools",
           "ms-vscode.makefile-tools",
           "ms-vscode.cmake-tools",
-          "docker.docker"
+          "docker.docker",
+          "ms-vscode.cpptools-extension-pack"
 
         ],
         "settings": {
